@@ -6,14 +6,14 @@
 
 3. Calling code works with abstract interfaces and classes and does not need to know the exact types of he objects created by the factory
 
-### Benefits
-1. Remove if-then-else blocks from construction code
-2. Easy to exchange platforms
-
 ### Definitions
 1. Products - objects created by the factory
 
 2. Platforms of products - a set of products that can be created in one go. Within a platform, the products interoperate with each other in a specific way
+
+### Benefits
+1. Remove if-then-else blocks from construction code
+2. Easy to exchange platforms
 
 ### UML
 ![Factory Pattern UML](img/factory pattern uml.gif)
@@ -55,8 +55,7 @@ An application that models food chains on different continents around the world
 | Product | Lion, Dingo, Zebra, Kangaroo |
 | Client | Ecosystem|
 
-#### Code
-##### 1. C# code
+#### C# code
 The abstract factory class
 ```csharp
 namespace FoodchainExample
